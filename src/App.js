@@ -4,34 +4,36 @@ import "./App.css";
 import math from "mathjs";
 import Button from "./components/Button";
 import Buttons from "./components/Buttons";
+import Display from "./components/Display";
 
 function App() {
   return (
     <div className="App">
       <h1>React Calculator</h1>
       <div className="calculator">
+        <Display data="3" />
         <Buttons>
-          <Button value="clear" />
-          <Button value="7" />
-          <Button value="4" />
-          <Button value="1" />
-          <Button value="0" />
+          <Button label="C" value="clear" />
+          <Button label="7" value="7" />
+          <Button label="4" value="4" />
+          <Button label="1" value="1" />
+          <Button label="0" value="0" />
 
-          <Button value="/" />
-          <Button value="8" />
-          <Button value="5" />
-          <Button value="2" />
-          <Button value="." />
+          <Button label="/" value="/" />
+          <Button label="8" value="8" />
+          <Button label="5" value="5" />
+          <Button label="2" value="2" />
+          <Button label="." value="." />
 
-          <Button value="*" />
-          <Button value="9" />
-          <Button value="6" />
-          <Button value="3" />
-          <Button value="null" />
+          <Button label="*" value="*" />
+          <Button label="9" value="9" />
+          <Button label="6" value="6" />
+          <Button label="3" value="3" />
+          <Button label=" " value="null" />
 
-          <Button value="-" />
-          <Button value="+" size="2" />
-          <Button value="equal" size="2" />
+          <Button label="-" value="-" />
+          <Button label="+" value="+" size="2" />
+          <Button label="=" value="equal" size="2" />
         </Buttons>
       </div>
     </div>

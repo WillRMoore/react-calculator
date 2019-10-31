@@ -1,5 +1,41 @@
-.button button {
+.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  height: 20%;
+  width: 25%;
+  background: #cad2c5;
+  background: -moz-linear-gradient(45deg, #cad2c5 0%, #abb5aa 100%);
+  background: -webkit-linear-gradient(45deg, #cad2c5 0%, #abb5aa 100%);
+  background: linear-gradient(45deg, #cad2c5 0%, #abb5aa 100%);
+  color: #3d3d3d;
+  font-weight: 500;
+  font-size: 24px;
+  border: border-box;
+}
+.button:hover {
+  background: #d8ddd6;
   cursor: pointer;
-  width: 3rem;
-  height: 3rem;
+}
+.button[data-size="2"] {
+  height: 40%;
+}
+.button[data-value="null"] {
+  pointer-events: none;
+}
+.button:active {
+  background: #bdc7b7;
 }

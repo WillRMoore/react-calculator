@@ -23,6 +23,6 @@
 
 .calculator {
   background-color: coral;
-  max-width: 13rem;
-  max-height: 20rem;
+  width: 13rem;
+  height: 20rem;
 }
