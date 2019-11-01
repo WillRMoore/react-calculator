@@ -1,4 +1,4 @@
-![React Calculator](https://github.com/DamirMoore/react-calculator/react-calculator-screenshot.png)
+![React Calculator](https://github.com/DamirMoore/react-calculator/blob/master/react-calculator-screenshot.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
